@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("meterial/body_bg.jpg") center top;
+    background-size: cover;
+}
+html,body{
+    height: 100%;
+}
+.navbar-bg{
+    height: 100%;
+    width: 13%;
+    float: left;
+    background-color: black;
+    opacity: 0.3;
+}
+.navbar{
+    height: 100%;
+    width: 13%;
+    float: left;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+    /*width: 100%;*/
+}
+.navbar ul li{
+    height: 50px;
+    display: block;
+    margin-top: 20px;
+    /*width: 100%;*/
+}
+.navbar ul li:hover{
+    background-color: green;
+    cursor: pointer;
+}
