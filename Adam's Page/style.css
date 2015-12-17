@@ -30,7 +30,7 @@ html,body{
 }
 .navbar ul li{
     height: 50px;
-    display: block;
+    /*display: block;*/
     margin-top: 20px;
     /*width: 100%;*/
 }
